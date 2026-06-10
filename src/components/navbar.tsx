@@ -1,9 +1,10 @@
-import React from 'react'
+import img2 from '@/../public/img2.jpg';
+import Image from 'next/image';
 export default function Navbar() {
   return (
     <nav className="w-full flex justify-between items-center px-6 py-4 bg-slate-900/70 text-white fixed top-0 z-10 backdrop-blur-md transition-all duration-300">
       <div className="font-bold text-xl text-white">
-        My Portfolio
+        <Image src={img2} alt="Logo" className="w-10 h-10 rounded-full object-cover" />
       </div>
       <div className="flex space-x-6 text-sm">
         <a href="#hero" className="text-slate-300 hover:text-cyan-400">Home</a>
