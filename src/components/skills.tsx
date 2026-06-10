@@ -19,12 +19,15 @@ export default function Skills() {
                     <li>Tailwind CSS</li>
                     <li>JavaScript</li>
                     <li>TypeScript</li>
+                    <li>Framer Motion</li>
+                    <li>HTML & CSS</li>
+                    <li>Responsive Design</li>
                 </ul>
             </div>
           </Reveal>
           <Reveal direction='right'>
             <div className={cardStyle}>
-              <h3 className="text-xl font-bold text-cyan-400">Backend Development</h3>
+              <h3 className="text-xl font-bold text-cyan-400">Programming Languages</h3>
                 <ul className="list-disc list-inside text-slate-300 mt-2">
                   <li>Python</li>
                   <li>Java</li>
@@ -58,6 +61,7 @@ export default function Skills() {
                 <li>VS Code</li>
                 <li>Cursor AI</li>
                 <li>NPM</li>
+                <li>Vercel</li>
               </ul>
             </div>
           </Reveal>
