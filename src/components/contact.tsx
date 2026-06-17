@@ -3,7 +3,7 @@ import Reveal from './reveal'
 export default function Contact() {
   return (
     <div>
-      <section id="contact" className="h-screen flex flex-col items-center justify-center pt-10 sm:p-12 sm:pl-10 sm:pr-10 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-950">
+      <section id="contact" className="h-screen flex flex-col items-center justify-center p-4 sm:p-12 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-950">
         <Reveal direction='up'>
           <h2 className="text-4xl font-semibold text-white">Contact Me</h2>
         </Reveal>
